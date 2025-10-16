@@ -1,8 +1,8 @@
-# SenteChainAI 💸🤖
+# SenteChainAI 
 
 A decentralized micro-lending platform built on **Base blockchain** with **AI-driven credit scoring**.
 
-## 🔹 Overview
+##  Overview
 
 SenteChainAI revolutionizes micro-lending by combining:
 - **AI-powered credit scoring** (SenteScore) based on transaction patterns
@@ -10,7 +10,7 @@ SenteChainAI revolutionizes micro-lending by combining:
 - **Soulbound NFTs** as reputation tokens for good borrowers
 - **Base blockchain** for fast, low-cost transactions
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────┐     ┌──────────────┐     ┌─────────────┐
@@ -27,7 +27,7 @@ SenteChainAI revolutionizes micro-lending by combining:
 └─────────────────────────────────────────────────────┘
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Node.js 18+ and npm/yarn
