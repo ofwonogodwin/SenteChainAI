@@ -1,0 +1,28 @@
+{
+    "name": "sentechainai",
+    "version": "1.0.0",
+    "description": "Decentralized micro-lending platform with AI-driven credit scoring on Base blockchain",
+    "private": true,
+    "workspaces": [
+        "frontend",
+        "contracts"
+    ],
+    "scripts": {
+        "dev": "npm run dev --workspace=frontend",
+        "build": "npm run build --workspace=frontend && npm run compile --workspace=contracts",
+        "test": "npm run test --workspace=contracts",
+        "deploy:contracts": "npm run deploy --workspace=contracts",
+        "start:backend": "cd backend && uvicorn app:app --reload",
+        "install:all": "npm install && cd frontend && npm install && cd ../contracts && npm install && cd ../backend && pip install -r requirements.txt"
+    },
+    "keywords": [
+        "blockchain",
+        "defi",
+        "lending",
+        "ai",
+        "base",
+        "web3"
+    ],
+    "author": "SenteChainAI Team",
+    "license": "MIT"
+}
