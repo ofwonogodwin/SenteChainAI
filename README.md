@@ -1,4 +1,5 @@
 # SenteChainAI 
+We continue Tomorrow
 
 A decentralized micro-lending platform built on **Base blockchain** with **AI-driven credit scoring**.
 
